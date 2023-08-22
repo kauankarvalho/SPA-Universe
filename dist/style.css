@@ -533,3 +533,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.text-\[62\.5\%\] {
+  font-size: 62.5%;
+}
