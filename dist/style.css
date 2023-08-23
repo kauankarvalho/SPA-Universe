@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mt-\[6\.3rem\] {
+  margin-top: 6.3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -550,6 +554,15 @@ video {
   width: 100%;
 }
 
+.max-w-\[65rem\] {
+  max-width: 65rem;
+}
+
+.max-w-max {
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -560,6 +573,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-\[1\.6rem\] {
+  gap: 1.6rem;
 }
 
 .gap-\[2\.4rem\] {
@@ -589,6 +606,10 @@ video {
 
 .bg-\[url\(\.\.\/src\/assets\/images\/bg-home\.png\)\] {
   background-image: url(../src/assets/images/bg-home.png);
+}
+
+.bg-\[url\(\.\.\/src\/assets\/images\/bg-universe\.png\)\] {
+  background-image: url(../src/assets/images/bg-universe.png);
 }
 
 .bg-cover {
@@ -622,6 +643,10 @@ video {
   padding-bottom: 16rem;
 }
 
+.pl-\[10\.2rem\] {
+  padding-left: 10.2rem;
+}
+
 .pl-\[7rem\] {
   padding-left: 7rem;
 }
@@ -632,6 +657,11 @@ video {
 
 .text-\[1\.4rem\]\/\[2\.8rem\] {
   font-size: 1.4rem;
+  line-height: 2.8rem;
+}
+
+.text-\[1\.8rem\]\/\[2\.8rem\] {
+  font-size: 1.8rem;
   line-height: 2.8rem;
 }
 
