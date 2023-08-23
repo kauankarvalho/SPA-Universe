@@ -604,6 +604,10 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.bg-\[url\(\.\.\/src\/assets\/images\/bg-exploration\.png\)\] {
+  background-image: url(../src/assets/images/bg-exploration.png);
+}
+
 .bg-\[url\(\.\.\/src\/assets\/images\/bg-home\.png\)\] {
   background-image: url(../src/assets/images/bg-home.png);
 }
