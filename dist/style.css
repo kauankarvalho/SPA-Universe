@@ -534,6 +534,165 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-\[2\.4rem\] {
+  gap: 2.4rem;
+}
+
+.gap-\[4rem\] {
+  gap: 4rem;
+}
+
+.gap-\[5rem\] {
+  gap: 5rem;
+}
+
+.rounded-\[0\.5rem\] {
+  border-radius: 0.5rem;
+}
+
+.border-\[0\.2rem\] {
+  border-width: 0.2rem;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-\[url\(\.\.\/src\/assets\/images\/bg-home\.png\)\] {
+  background-image: url(../src/assets/images/bg-home.png);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.px-\[3\.2rem\] {
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+}
+
+.py-\[1\.2rem\] {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.py-\[4rem\] {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pb-\[16rem\] {
+  padding-bottom: 16rem;
+}
+
+.pl-\[7rem\] {
+  padding-left: 7rem;
+}
+
+.font-roboto {
+  font-family: Roboto, sans-serif;
+}
+
+.text-\[1\.4rem\]\/\[2\.8rem\] {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+}
+
+.text-\[2rem\]\/\[2rem\] {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.text-\[4\.8rem\]\/\[6rem\] {
+  font-size: 4.8rem;
+  line-height: 6rem;
+}
+
 .text-\[62\.5\%\] {
   font-size: 62.5%;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.text-\[\#C4C4CC\] {
+  --tw-text-opacity: 1;
+  color: rgb(196 196 204 / var(--tw-text-opacity));
+}
+
+.text-\[\#E1E1E6\] {
+  --tw-text-opacity: 1;
+  color: rgb(225 225 230 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-\[0\.2s\] {
+  transition-duration: 0.2s;
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-\[\#02799D\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(2 121 157 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
