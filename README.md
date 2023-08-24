@@ -46,6 +46,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Tailwind CSS](https://tailwindcss.com)
+- [Prettier](https://prettier.io)
 
 ## 📝 Licença
 
