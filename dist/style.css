@@ -534,6 +534,55 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.page {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 7rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 5rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(196 196 204 / var(--tw-text-opacity));
+}
+
+.paragraph {
+  width: 100%;
+  max-width: 65rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(225 225 230 / var(--tw-text-opacity));
+}
+
+.title {
+  max-width: -moz-max-content;
+  max-width: max-content;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(225 225 230 / var(--tw-text-opacity));
+}
+
 .mt-\[6\.3rem\] {
   margin-top: 6.3rem;
 }
@@ -554,15 +603,6 @@ video {
   width: 100%;
 }
 
-.max-w-\[65rem\] {
-  max-width: 65rem;
-}
-
-.max-w-max {
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -581,14 +621,6 @@ video {
 
 .gap-\[2\.4rem\] {
   gap: 2.4rem;
-}
-
-.gap-\[4rem\] {
-  gap: 4rem;
-}
-
-.gap-\[5rem\] {
-  gap: 5rem;
 }
 
 .rounded-\[0\.5rem\] {
@@ -616,18 +648,6 @@ video {
   background-image: url(../src/assets/images/bg-universe.png);
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
 .px-\[3\.2rem\] {
   padding-left: 3.2rem;
   padding-right: 3.2rem;
@@ -638,21 +658,12 @@ video {
   padding-bottom: 1.2rem;
 }
 
-.py-\[4rem\] {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .pb-\[16rem\] {
   padding-bottom: 16rem;
 }
 
 .pl-\[10\.2rem\] {
   padding-left: 10.2rem;
-}
-
-.pl-\[7rem\] {
-  padding-left: 7rem;
 }
 
 .font-roboto {
@@ -662,16 +673,6 @@ video {
 .text-\[1\.4rem\]\/\[2\.8rem\] {
   font-size: 1.4rem;
   line-height: 2.8rem;
-}
-
-.text-\[1\.8rem\]\/\[2\.8rem\] {
-  font-size: 1.8rem;
-  line-height: 2.8rem;
-}
-
-.text-\[2rem\]\/\[2rem\] {
-  font-size: 2rem;
-  line-height: 2rem;
 }
 
 .text-\[4\.8rem\]\/\[6rem\] {
@@ -685,15 +686,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-normal {
-  font-weight: 400;
-}
-
-.text-\[\#C4C4CC\] {
-  --tw-text-opacity: 1;
-  color: rgb(196 196 204 / var(--tw-text-opacity));
 }
 
 .text-\[\#E1E1E6\] {
