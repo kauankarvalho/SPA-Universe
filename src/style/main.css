@@ -8,18 +8,22 @@
   }
 
   .header {
-    @apply flex items-center gap-[4rem] py-[4rem] pl-[7rem];
+    @apply flex items-center gap-[4rem] px-[7rem] py-[4rem] max-[580px]:flex-col max-[580px]:gap-[3rem];
   }
 
   .navigation {
-    @apply flex gap-[5rem] text-[2rem]/[2rem] font-normal text-[#C4C4CC];
+    @apply flex items-center gap-[5rem] text-[2rem]/[2rem] font-normal text-[#C4C4CC];
   }
 
-  .paragraph {
-    @apply w-full max-w-[65rem] text-[1.8rem]/[2.8rem] font-normal text-[#E1E1E6];
+  .main-paragraph {
+    @apply mt-[6.3rem] flex flex-col gap-[1.6rem] px-[10.2rem] max-[580px]:items-center max-[580px]:px-[5rem];
   }
 
   .title {
-    @apply max-w-max text-[4.8rem]/[6rem] font-bold text-[#E1E1E6];
+    @apply max-w-max text-center text-[4.8rem]/[6rem] font-bold text-[#E1E1E6];
+  }
+
+  .paragraph {
+    @apply w-full max-w-[65rem] text-[1.8rem]/[2.8rem] font-normal text-[#E1E1E6] max-[580px]:text-center;
   }
 }
