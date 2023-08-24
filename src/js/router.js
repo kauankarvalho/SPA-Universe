@@ -32,6 +32,11 @@ export class Router {
     const universe = document.querySelector("#nav-universe")
     const exploration = document.querySelector("#nav-exploration")
 
+    if (location.pathname === "/") {
+      const linkButton = document.querySelector("#link-button")
+      linkButton.addEventListener("click", this.handleNavigationClick)
+    }
+
     home.addEventListener("click", this.handleNavigationClick)
     universe.addEventListener("click", this.handleNavigationClick)
     exploration.addEventListener("click", this.handleNavigationClick)
