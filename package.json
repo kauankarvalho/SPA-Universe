@@ -1,15 +1,9 @@
 {
   "name": "spa-universe",
-  "version": "",
-  "description": "",
-  "main": "",
   "scripts": {
     "start": "lite-server",
-    "tailwindcss": "npx tailwindcss -i ./src/style/main.css -o ./dist/style.css --watch"
+    "tailwindcss": "pnpm exec tailwindcss -i ./src/style/main.css -o ./dist/style.css --watch"
   },
-  "keywords": [],
-  "author": "Kauan Carvalho",
-  "license": "MIT",
   "devDependencies": {
     "lite-server": "^2.6.1",
     "prettier": "^3.0.2",
